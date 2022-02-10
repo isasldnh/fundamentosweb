@@ -1,0 +1,54 @@
+/*Estilos da index.html*/
+
+.center{
+    text-align: center;
+}
+
+.lista{
+    background-color: burlywood;
+}
+
+.lista li{
+    display: inline;
+    padding: 20px;
+}
+
+.lista li a{
+    text-decoration: none;
+    color:red;
+}
+
+.lista li a: hover{
+    color: grey;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.foto img{
+    border-radius: 50%;
+}
+
+.video{
+    padding: 50px;
+}
+
+.endereco{
+    padding:50px;
+    border: 2px;
+    border-color: blanchedalmond;
+}
+
+.form{
+    padding: 50px;
+}
+/*Estilos da contato.html*/
